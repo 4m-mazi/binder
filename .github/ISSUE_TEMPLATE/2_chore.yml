@@ -1,0 +1,12 @@
+name: その他
+description: バグ、新機能要望以外のものはこちら
+title: "🐤: "
+labels: ["triage"]
+body:
+  - type: textarea
+    id: request
+    attributes:
+      label: なんですか？
+      description: 何かあれば書いてください。
+    validations:
+      required: true
