@@ -52,10 +52,10 @@ importers:
         specifier: 20.10.6
         version: 20.10.6
       '@types/react':
-        specifier: ^18.2.46
+        specifier: 18.2.46
         version: 18.2.46
       '@types/react-dom':
-        specifier: ^18.2.18
+        specifier: 18.2.18
         version: 18.2.18
       eslint:
         specifier: 8.56.0
@@ -95,10 +95,10 @@ importers:
         specifier: 20.10.6
         version: 20.10.6
       '@types/react':
-        specifier: ^18.2.46
+        specifier: 18.2.46
         version: 18.2.46
       '@types/react-dom':
-        specifier: ^18.2.18
+        specifier: 18.2.18
         version: 18.2.18
       eslint:
         specifier: 8.56.0
@@ -151,10 +151,10 @@ importers:
         specifier: 20.10.6
         version: 20.10.6
       '@types/react':
-        specifier: ^18.2.46
+        specifier: 18.2.46
         version: 18.2.46
       '@types/react-dom':
-        specifier: ^18.2.18
+        specifier: 18.2.18
         version: 18.2.18
       eslint:
         specifier: 8.56.0
