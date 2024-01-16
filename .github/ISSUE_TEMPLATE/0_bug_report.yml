@@ -1,0 +1,34 @@
+name: バグ報告
+description: バグがあったら教えてください
+labels: ["bug", "triage"]
+body:
+  - type: textarea
+    id: current_behavior
+    attributes:
+      label: 現在の状況
+      description: 発生中の問題を簡潔明瞭に教えてね⭐️。
+    validations:
+      required: true
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: 期待する挙動
+      description: 期待する挙動を簡潔明瞭に教えてね⭐️。
+    validations:
+      required: true
+  - type: textarea
+    id: supplementary-information
+    attributes:
+      label: 補足情報
+      description: |
+        他に何か補足情報があったら書いてね。
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: 関連するログ
+      description: バグが起きてる箇所のログがあったら貼ってね。
+      render: shell
+    validations:
+      required: false
