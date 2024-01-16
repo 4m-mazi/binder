@@ -1,5 +1,6 @@
 name: バグ報告
 description: バグがあったら教えてください
+title: "バグ: "
 labels: ["bug", "triage"]
 body:
   - type: textarea
