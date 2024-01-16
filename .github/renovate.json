@@ -1,0 +1,28 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:best-practices",
+    "config:js-app",
+    ":disablePrControls",
+    ":labels(dependencies)",
+    ":maintainLockFilesWeekly",
+    ":pathSemanticCommitType(.github/workflows/**, ci)",
+    ":prHourlyLimitNone",
+    ":rebaseStalePrs",
+    ":semanticCommits"
+  ],
+  "automergeStrategy": "squash",
+  "assigneesFromCodeOwners": true,
+  "assignees": ["Mogyuchi"],
+  "dependencyDashboardAutoclose": true,
+  "prConcurrentLimit": 3,
+  "customManagers": [
+    {
+      "customType": "regex",
+      "fileMatch": ["(^|/)\\.npmrc$"],
+      "matchStrings": ["use-node-version=(?<currentValue>.*?)\\n"],
+      "depNameTemplate": "node",
+      "datasourceTemplate": "node-version"
+    }
+  ]
+}
