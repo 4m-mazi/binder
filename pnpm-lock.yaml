@@ -122,8 +122,8 @@ importers:
         specifier: 9.1.0
         version: 9.1.0(eslint@8.56.0)
       eslint-config-turbo:
-        specifier: 1.12.0
-        version: 1.12.0(eslint@8.56.0)
+        specifier: 1.12.1
+        version: 1.12.1(eslint@8.56.0)
       eslint-plugin-only-warn:
         specifier: 1.1.0
         version: 1.1.0
@@ -142,8 +142,8 @@ importers:
         specifier: workspace:*
         version: link:../typescript-config
       '@turbo/gen':
-        specifier: 1.12.0
-        version: 1.12.0(@types/node@20.11.13)(typescript@5.3.3)
+        specifier: 1.12.1
+        version: 1.12.1(@types/node@20.11.13)(typescript@5.3.3)
       '@types/eslint':
         specifier: 8.56.2
         version: 8.56.2
@@ -687,11 +687,11 @@ packages:
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
     dev: true
 
-  /@turbo/gen@1.12.0(@types/node@20.11.13)(typescript@5.3.3):
-    resolution: {integrity: sha512-qMmaHKDiYhHSoYvArvf2Vwk36UqL2LuHmGIOXVNjvWqhAASSFd8ALEnIH3TQeddr/KlaIjy8NZxFN+hbpHsX8Q==}
+  /@turbo/gen@1.12.1(@types/node@20.11.13)(typescript@5.3.3):
+    resolution: {integrity: sha512-XPpRiefrv3je0A8dSD6SQt3g8hX0z4RkbGZ4l+X+byOZ8oD7X2iKKcmcAynUiIChE7r8Ga8DCIhy25de9niMcw==}
     hasBin: true
     dependencies:
-      '@turbo/workspaces': 1.12.0
+      '@turbo/workspaces': 1.12.1
       chalk: 2.4.2
       commander: 10.0.1
       fs-extra: 10.1.0
@@ -710,8 +710,8 @@ packages:
       - typescript
     dev: true
 
-  /@turbo/workspaces@1.12.0:
-    resolution: {integrity: sha512-/ZepJkd/ckQwsxYG9KHItlnOgfWppfqtz1VahMZHiR/Fbj851T/USqhk0e9h9csHe+dG5eRTxpVnVnf7J5TKfA==}
+  /@turbo/workspaces@1.12.1:
+    resolution: {integrity: sha512-UwTNG4oY9T+UQKNI8WMWV78cSNJV3g5Q5jQTVws4yyFxwAd/G0U/sye7YT1v/rxugPgaG803MRPmtfnJ7eNB/Q==}
     hasBin: true
     dependencies:
       chalk: 2.4.2
@@ -1813,13 +1813,13 @@ packages:
       eslint: 8.56.0
     dev: true
 
-  /eslint-config-turbo@1.12.0(eslint@8.56.0):
-    resolution: {integrity: sha512-0rtWiBlkNiQtADHE2/r221pfOzABtbfE12KgmcwDhNCnUnuCrVmprlFndbH8VXDl1vmocoZeTQX29R+UCn3tVg==}
+  /eslint-config-turbo@1.12.1(eslint@8.56.0):
+    resolution: {integrity: sha512-OaUTQvVg92ggsShI6g3El6loigGskqjjW5MnCHlSPmeuSLk7R5gBtuDtIhg9CFuOgMOUxtktc1EYlKvyMu7QKQ==}
     peerDependencies:
       eslint: '>6.6.0'
     dependencies:
       eslint: 8.56.0
-      eslint-plugin-turbo: 1.12.0(eslint@8.56.0)
+      eslint-plugin-turbo: 1.12.1(eslint@8.56.0)
     dev: true
 
   /eslint-import-resolver-alias@1.1.2(eslint-plugin-import@2.29.1):
@@ -2058,8 +2058,8 @@ packages:
       '@microsoft/tsdoc-config': 0.16.2
     dev: true
 
-  /eslint-plugin-turbo@1.12.0(eslint@8.56.0):
-    resolution: {integrity: sha512-OW+uCm47epGVBGk91n6BtPkz6HYVhtzqkK2VoMaM0Z/Mzp1iRVcrq9yNPMsoqNOo+lRMf4ciJ9Fb5SkGAxiWOw==}
+  /eslint-plugin-turbo@1.12.1(eslint@8.56.0):
+    resolution: {integrity: sha512-f0RdGFdVb4uoH6rcMer9P/GmiewVbuU+qntvKerjDPL36UL4dfD1+YvkwQNwbOhSPH+EbDoxkNYLWkgy33Jjww==}
     peerDependencies:
       eslint: '>6.6.0'
     dependencies:
