@@ -1,17 +1,26 @@
 {
-  "name": "binder",
+  "name": "my-app",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "turbo build",
-    "dev": "turbo dev",
-    "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md,mdx,json}\""
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.1.0"
   },
   "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
     "prettier": "3.2.4",
-    "turbo": "latest"
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0"
   },
   "packageManager": "pnpm@8.15.1",
   "engines": {
