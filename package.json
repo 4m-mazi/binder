@@ -16,7 +16,7 @@
   "devDependencies": {
     "typescript": "5.4.2",
     "@types/node": "20.11.27",
-    "@types/react": "18.2.65",
+    "@types/react": "18.2.66",
     "@types/react-dom": "18.2.22",
     "prettier": "3.2.5",
     "eslint": "8.57.0",
